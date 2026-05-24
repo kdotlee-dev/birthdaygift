@@ -122,4 +122,19 @@ a {
   padding: 5px 20px;
   background-color: #ffffff;
 }
+
+@media (max-width: 768px) {
+  body {
+    align-items: center;
+  }
+
+  .gift-section {
+    align-items: center;
+  }
+
+  .gift-cover {
+    width: 90%;
+    max-width: 400px;
+  }
+}
 /* Not part of the tutorial */
