@@ -1,0 +1,124 @@
+body {
+  /* background: #a2d2ff; */
+  background: linear-gradient(#a2d2ff, #efb0c9);
+  color: #ffffff;
+  /* text-align only centers inline elements */
+  text-align: center;
+  font-family: "Happy Monkey", system-ui;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  text-shadow: 0px 0px 1px black;
+}
+
+#profile {
+  /* width and height here determines the size of image element */
+  width: 150px;
+  height: 150px;
+  border: 6px solid #efb0c9;
+  border-radius: 100px;
+}
+
+#age {
+  background: #efb0c9;
+  padding: 5px 10px 5px 10px;
+  border-radius: 6px;
+  margin: 16px 0px 10px 0px;
+}
+
+#date {
+  background: #efb0c9;
+  margin-top: 0px;
+  padding: 5px 10px 5px 10px;
+  border-radius: 6px;
+}
+
+#header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gift-section {
+  margin-top: 30px;
+}
+
+.gift-title {
+  margin-bottom: 10px;
+}
+
+.hover-title {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.gift-cover {
+  /* width and height here now determine the size of the container element*/
+  width: 400px;
+  height: 400px;
+  border: 6px solid white;
+  border-radius: 10px;
+  /* centers the img because the div container is a display:block w/ a set width */
+  margin: 20px auto 40px;
+  background-image: url("./images/gift-cover.jpg");
+  background-size: cover;
+}
+
+#gift-happy:hover {
+  background-image: url("./images/happy1.gif");
+}
+
+#gift-omg:hover {
+  background-image: url("./images/omg.gif");
+}
+
+#gift-smart:hover {
+  background-image: url("./images/smart.gif");
+}
+
+#gift-badass:hover {
+  background-image: url("./images/badass.gif");
+}
+
+#gift-cover-cheers {
+  /* Overrides the gift cover height because ID selectors have higher specificity
+     than class selectors. An ID is intended to uniquely identify a single element,
+     so CSS gives it stronger priority when styles conflict. */
+  height: 200px;
+}
+
+#gift-cover-cheers:hover {
+  background-image: url("./images/cheers.gif");
+}
+
+#footer {
+  width: 400px;
+  margin: 40px auto 20px;
+  font-style: italic;
+}
+
+a {
+  color: inherit;
+}
+
+/* Not part of the tutorial */
+#play-btn {
+  border: 4px solid #efb0c9;
+  border-radius: 10px;
+  margin-top: 12px;
+  padding: 1px 6px;
+  background: #ffffff;
+}
+
+#pause-btn {
+  border: 4px solid #efb0c9;
+  border-radius: 10px;
+  margin-top: 12px;
+  padding: 1px 6px;
+  background-color: #ffffff;
+}
+/* Not part of the tutorial */

@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Birthday GIFt</title>
+  </head>
+  <body>
+    <!-- Not Included in the tutorial -->
+    <div>
+      <button id="play-btn">Play</button>
+      <button id="pause-btn">Pause</button>
+    </div>
+    <!-- Not Included in the tutorial -->
+
+    <div id="header">
+      <!-- <h1>Today is Tricia's Birthday🎉</h1> -->
+      <h1>Happy 18th Birthday, Tricia 🎉</h1>
+      <img src="./images/IMG_20221231_211223.jpg" id="profile" />
+      <!-- <h2 id="age">18 years old</h2> -->
+      <h2 id="age">Finally 18 ✨</h2>
+      <h4 id="date">05.30.2008</h4>
+    </div>
+
+    <div class="gift-section">
+      <!-- <h2 class="gift-title">Here's how happy I am for you today🥳</h2> -->
+      <h2 class="gift-title">
+        Here's how happy we are to celebrate you today 🥳
+      </h2>
+      <h3 class="hover-title">(Hover over the gift)</h3>
+      <!-- <img src="./images/gift-cover.jpg" class="gift-cover" /> -->
+      <div class="gift-cover" id="gift-happy"></div>
+
+      <!-- <h2 class="gift-title">How people react when you enter the room😍</h2> -->
+      <h2 class="gift-title">Your friends whenever you're around 💖</h2>
+      <div class="gift-cover" id="gift-omg"></div>
+
+      <!-- <h2 class="gift-title">If I had to describe you with ONE word👇</h2> -->
+      <h2 class="gift-title">One word that describes you perfectly 👇</h2>
+      <div class="gift-cover" id="gift-smart"></div>
+
+      <h2 class="gift-title">The only person as badass as you💪</h2>
+      <div class="gift-cover" id="gift-badass"></div>
+
+      <!-- <h2 class="gift-title">This one's for you, my friend🥂</h2> -->
+      <h2 class="gift-title">
+        Cheers to more memories, laughter, and happiness 🥂
+      </h2>
+      <div class="gift-cover" id="gift-cover-cheers"></div>
+    </div>
+
+    <p id="footer">
+      <!-- Want to create your own Birthday GIFt site? Take
+      <a href="https://scrimba.com/learn/htmlandcss" target="_blank">
+        this HTML & CSS course.
+      </a> -->
+      A little
+      <a
+        href="videos/Roblox Death Sound Happy Birthday Song Remix.mp4"
+        target="_blank"
+      >
+        birthday song
+      </a>
+      for the birthday girl 🎶
+    </p>
+
+    <!-- Not Part of the Scrimba Lessons Personal Addition -->
+    <audio
+      id="background-sound"
+      src="audio/ITS RAINING TACOS! (Roblox Music Video).mp3"
+      loop
+    ></audio>
+
+    <script>
+      const backgroundSound = document.getElementById("background-sound");
+
+      const play = document.getElementById("play-btn");
+      const pause = document.getElementById("pause-btn");
+
+      play.addEventListener("click", () => {
+        backgroundSound.play();
+      });
+
+      pause.addEventListener("click", () => {
+        backgroundSound.pause();
+      });
+    </script>
+    <!-- Not Part of the Scrimba Lessons Personal Addition -->
+  </body>
+</html>
