@@ -73,22 +73,22 @@ p {
 }
 
 #gift-omg:hover {
-  background-image: url("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3N5MXAxc2N6anN2bnMxOXR5N3NqcWc3NTZhbTd4bXdhbXVlenhsMSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/PUBxelwT57jsQ/giphy.gif");
+  background-image: url("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3N5MXAxc2N6anN2bnMxOXR5N3NqcWc3NTZhbTd4bXdhbXVlenhsMSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/dvILshvavCEaM2tIWa/giphy.gif");
 }
 
 #gift-smart:hover {
-  background-image: url("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDNlbnJ0azFpbDh2cTZpY3Jmd2R3bnJ2ZjZkc3dlMDdqMWUzNm1hYiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/cYftRpHujRiZEFPN7T/giphy.gif");
+  background-image: url("https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExOTdtdmpzMGMwdDluaTVtcTZkdTFsdmlnNWlsZjY3ZWI0bjVud3ExdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/LNMAa5P9JFBoMVHSUk/giphy.gif");
 }
 
 #gift-badass:hover {
-  background-image: url("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZW42Z2d6OWE2anA2NGxvbHdtMXA1d20xNmNwMmJ1bmUybHNuajFjaCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/KBY0BfYrvAYZQAkUP5/giphy.gif");
+  background-image: url("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZW42Z2d6OWE2anA2NGxvbHdtMXA1d20xNmNwMmJ1bmUybHNuajFjaCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/VZVK5WCg0A0H37s8ND/giphy.gif");
 }
 
 #gift-cover-cheers {
   /* Overrides the gift cover height because ID selectors have higher specificity
      than class selectors. An ID is intended to uniquely identify a single element,
      so CSS gives it stronger priority when styles conflict. */
-  height: 200px;
+  height: 500px;
 }
 
 #gift-cover-cheers:hover {
@@ -96,9 +96,10 @@ p {
 }
 
 #footer {
-  width: 400px;
-  margin: 40px auto 20px;
+  width: 370px;
+  margin: 40px auto 40px;
   font-style: italic;
+  color: black;
 }
 
 a {
@@ -110,7 +111,7 @@ a {
   border: 4px solid #efb0c9;
   border-radius: 10px;
   margin-top: 12px;
-  padding: 1px 6px;
+  padding: 5px 20px;
   background: #ffffff;
 }
 
@@ -118,7 +119,7 @@ a {
   border: 4px solid #efb0c9;
   border-radius: 10px;
   margin-top: 12px;
-  padding: 1px 6px;
+  padding: 5px 20px;
   background-color: #ffffff;
 }
 /* Not part of the tutorial */
